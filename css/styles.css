@@ -1,0 +1,137 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: #fafafa;
+}
+
+/*SLIDE1*/
+
+.slide-1{
+	background-image: url("../src/slide-1.png");
+	background-size: 120%;
+	width: 100%;
+	height: 850px;
+	position: relative;
+}
+.hand-image{
+	position: absolute;
+	bottom: 0;
+	left: 100px;
+	width: 40%;
+}
+.slide-1-text{
+	color: white;
+
+}
+.slide-1-text span{
+	display: block;
+	margin-left: 50%;
+}
+.slide-1-text span:nth-child(1){
+	font-weight: 700;
+	font-size: 48px;
+	padding-top: 180px;
+	padding-bottom: 100px;
+}
+.slide-1-text span:nth-child(2),
+.slide-1-text span:nth-child(3){
+	font-weight: 300;
+	font-size: 48px;
+}
+.slide-1-text span:nth-child(4){
+	font-size: 18px;
+	color: black;
+	font-weight: 700;
+}
+.slide-1-text span:nth-child(5){
+	margin-left: 50%;
+}
+.slide-1-text span:nth-child(6){
+	margin-left: 10px;
+}
+.slide-1-text span:nth-child(5),
+.slide-1-text span:nth-child(6){
+	display: inline-block;
+}
+
+
+/*END SLIDE1*/
+/*----------------------------------------------------------------------------------------*/
+/*SLIDE2*/
+
+.slide-2{
+	width: 100%;
+	height: 600px;
+
+}
+.slide-2-header{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.slide-2-header span{
+	display: block;
+}
+
+.slide-2-header span:nth-child(1){
+	color: #1b1b1b;
+	font-size: 36px;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.slide-2-header span:nth-child(2){
+	color: #9da8ad;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.slide-2-columns{
+	text-align: center;
+}
+
+.slide-2-columns span{
+	display: block;
+}
+.slide-2-columns span:nth-child(2){
+	color: #1b1b1b;
+	font-size: 36px;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.slide-2-columns span:nth-child(3){
+	color: #9da8ad;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+/*END SLIDE2*/
+/*----------------------------------------------------------------------------------------*/
+/*SLIDE3*/
+
+.slide-3{
+
+}
+.slide-3-top{
+	width: 100%;
+	height: 600px;
+	background-image: url("../src/slide-1.png");
+	background-size: 120%;
+	position: relative;
+}
+.slide-3-top img{
+	position: absolute;
+}
+.slide-3-bottom{
+	height: 1200px;
+}
+
+
+
+/*END SLIDE3*/
+/*----------------------------------------------------------------------------------------*/
