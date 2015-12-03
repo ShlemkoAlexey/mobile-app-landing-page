@@ -232,7 +232,7 @@ body{
 	position: relative;
 }
 .slide-4 .row .col-md-2{
-	background-color: lightblue;
+	background-image: url("../src/slide-1.png");
 	height: 400px;
 }
 .slide-4-cite-block{
@@ -254,5 +254,149 @@ body{
 	font-weight: 400
 }
 
-/*END SLIDE3*/
+/*END SLIDE4*/
 /*----------------------------------------------------------------------------------------*/
+/*SLIDE5*/
+.slide-5{
+	height: 600px;
+}
+.slide-5-header{
+
+}
+.slide-5-header span{
+	display: block;
+	text-align: center;
+
+}
+.slide-5-header span:nth-child(1){
+	color: #1b1b1b;
+	font-size: 36px;
+	font-weight: 300;
+	padding-top: 75px;	
+}
+.slide-5-header span:nth-child(2){
+	color: #9da8ad;
+	font-size: 18px;
+	font-weight: 400;	
+}
+.slide-5-team .col-md-4{
+	height: 450px;
+	position: relative;
+}
+
+.slide-5-team .col-md-4 span{
+	display: block;
+	padding-left: 55%;	
+}
+.slide-5-team .col-md-4 span:nth-child(1){
+	color: #1b1b1b;
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 200px;
+}
+.slide-5-team .col-md-4 span:nth-child(2){
+	color: #9da8ad;
+	font-size: 16px;
+	font-weight: 400;
+}
+.slide-5-photo{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	left: 8%;
+	bottom: 125px;
+	border: 1px solid lightgray;
+}
+.slide-5 .row .col-md-4 .slide-5-icon-back{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	position: relative;
+}
+.slide-5 .row .col-md-4 .slide-5-icon-back:nth-child(3){
+	margin-left: 55%;	
+}
+.twitter-color{
+	background-color: #29c5f6;
+}
+.facebook-color{
+	background-color: #6788ce;
+}
+.github-color{
+	background-color: #6788ce;
+}
+.dribble-color{
+	background-color: #f85993;
+}
+.slide-5-icon-back img{
+	position: absolute;
+	left: 5px;
+	top: 9px;
+}
+.github-color img,
+.facebook-color img{
+	left: 9px;
+}
+
+.team-photo-1{
+	background: url(../src/team-photo-1.png);
+}
+.team-photo-2{
+	background: url(../src/team-photo-2.png);
+	background-size: 100%;
+	background-position: 25% 30%;
+}
+.team-photo-3{
+	background: url(../src/team-photo-3.png);
+	background-position: 40% 0%;
+}
+/*END SLIDE5*/
+/*----------------------------------------------------------------------------------------*/
+/*SLIDE6*/
+.slide-6{
+	height: 150px;
+	border-top:1px solid #f2f2f2;
+	position: relative;
+}
+	
+.slide-6-links{
+	text-align: center;
+	margin-top: 60px;
+}
+.slide-6-links span{
+	display: inline-block;
+	color: #989898;
+	font-size: 26px;
+	padding: 10px 40px;
+}
+.slide-6-links span a:hover{
+	color: none;
+	color: #222222;
+}
+.slide-6-links span a{
+	color: #989898;
+}
+.lifetrackr{
+	position: absolute;
+	left: 100px;
+	top: 73px;
+}
+.slide-6-facebook,
+.slide-6-twitter{
+	position: absolute;
+	top: 78px;
+	right: 100px;
+}
+.slide-6-facebook{
+	right: 140px;
+}
+
+
+
+
+
+
+
+/*END SLIDE6*/
